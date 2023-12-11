@@ -29,7 +29,7 @@ az group create --name <resource group name> --location japaneast
 
 (VMの管理者パスワードは、大文字・小文字・数字を含む12文字以上の文字列に設定)
 ```
-az deployment group create --resource-group <resource group name> --template-file main.bice
+az deployment group create --resource-group <resource group name> --template-file main.bicep
 ```
 
 # 参考文献

@@ -70,7 +70,7 @@ param vmName string = 'simple-vm'
 ])
 param securityType string = 'TrustedLaunch'
 
-var storageAccountName = 'sample-storage-account-${uniqueString(resourceGroup().id)}'
+var storageAccountName = '${uniqueString(resourceGroup().id)}'
 var nicName = 'my-vmnic'
 var addressPrefix = '10.0.0.0/16'
 var subnetName = 'Subnet'
